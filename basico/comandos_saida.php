@@ -1,6 +1,10 @@
 <?php
 
-//Comando echo
+/*
+ * Comando echo
+ * Não precisa obrigatoriamente de parênteses. 
+ * Não retorna nenhum valor (retorno nulo).
+*/
 echo "<p>Olá Mundo!", " ", "<span class='tag'>#BoraProgramar!</span>", "</p>";
 
 $hello = "Olá Mundo!";
@@ -18,4 +22,13 @@ echo "<h3>{$hello}</h3>";
 echo "<h4>{$hello} {$code}</h4>";
 
 echo '<h3>' . $hello . " " . $code . "</h3>";
+
+
+/*
+ * Comando prinf
+ * É uma função real (baseada na função printf da linguagem C) usada para exibir strings formatadas.
+ */
+$nome = "Maria";
+$idade = 30;
+printf("Olá, meu nome é %s e tenho %d anos.", $nome, $idade);
 ?>
