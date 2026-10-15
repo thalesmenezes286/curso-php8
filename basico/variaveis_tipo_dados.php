@@ -32,5 +32,7 @@ var_dump($possuiHistoricoNegativo);
 var_dump($a, $b, $c, $d);
 
 //função callback   
-$code = "<article><h1>Curso de PHP 8</h1></article>";
-$
+$code = "<article><h1>Curso de PHP 8</h1></article>";]
+$resultado = strip_tags($code);
+
+echo $resultado;

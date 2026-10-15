@@ -28,15 +28,15 @@ echo '<h3>' . $hello . " " . $code . "</h3>";
  * Comando printf
  * É uma função real (baseada na função printf da linguagem C) usada para exibir strings formatadas.
  */
-$nome = "Maria";
-$idade = 30;
-printf("Olá, meu nome é %s e tenho %d anos.", $nome, $idade);
+$name = "Maria";
+$age = 30;
+    printf("Olá, meu nome é %s e tenho %d anos.", $name, $age);
 
-
+echo "<br>"
 /*
  * Comando print_r
  * É uma função usada para exibir informações legíveis sobre uma variável.
  */
-$frutas = array("maçã", "banana", "laranja");
-print_r($frutas);
+$fruits = array("apple", "banana", "orange");
+print_r($fruits);
 ?>
