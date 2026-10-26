@@ -32,7 +32,7 @@ $name = "Maria";
 $age = 30;
     printf("Olá, meu nome é %s e tenho %d anos.", $name, $age);
 
-echo "<br>"
+echo "<br>";
 /*
  * Comando print_r
  * É uma função usada para exibir informações legíveis sobre uma variável.
